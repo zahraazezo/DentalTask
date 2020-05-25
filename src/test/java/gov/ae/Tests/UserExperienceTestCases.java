@@ -20,7 +20,7 @@ public class UserExperienceTestCases extends TestBase {
     ExtentReports report;
     ExtentTest test;
 
-    @Test(priority = 1 , enabled = false)
+    @Test(priority = 1 )
     public void validate_three_clicks_navigation() {
         test = report.createTest("Validate user can navigate to service page by 3 clicks");
         ExtentManager.setExtentTest(test);
@@ -29,7 +29,7 @@ public class UserExperienceTestCases extends TestBase {
         Assert.assertTrue(count == 3);
     }
 
-    @Test(priority = 2,enabled = false)
+    @Test(priority = 2)
     public void validate_national_identity_option() {
         test = report.createTest("Validate user can access services via national ID");
         ExtentManager.setExtentTest(test);
