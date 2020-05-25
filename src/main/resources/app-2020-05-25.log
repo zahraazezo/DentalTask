@@ -1,0 +1,1032 @@
+00:00:08.230 ERROR SeleniumUtils -The element serviceMenu Menu not appeared due toExpected condition failed: waiting for visibility of element located by By.xpath: .//div[@id='searchResults']//span[text()='Dental Treatment'] (tried for 30 second(s) with 500 milliseconds interval)
+00:00:08.265 INFO  SeleniumUtils -The  serviceMenu Menu is pressed
+00:00:08.266 INFO  UserExperienceCases -
+ Click the go to service 
+00:00:08.273 INFO  SeleniumUtils -Waiting for max:: 30 seconds for Go to service to be available
+00:00:08.368 INFO  SeleniumUtils -The control took  -  95 to be loaded
+00:00:08.383 INFO  SeleniumUtils -'Go to service button' Element is Present
+00:00:08.522 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  Go to service to be available
+00:00:08.579 INFO  SeleniumUtils -The control took  -  31 to be loaded
+00:00:08.579 INFO  SeleniumUtils -The  Go to service is pressed
+00:00:08.592 INFO  UserExperienceCases -Enter the service user name 
+
+00:00:08.594 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  UserName Textbox to be available
+00:00:14.881 INFO  SeleniumUtils -The control took  -  6287 to be loaded
+00:00:15.038 INFO  SeleniumUtils -Theminhaeprod12 value is typed in the 'UserName' text box
+00:00:15.039 INFO  UserExperienceCases -Enter the service password 
+
+00:00:15.041 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  Password Textbox to be available
+00:00:15.074 INFO  SeleniumUtils -The control took  -  33 to be loaded
+00:00:15.191 INFO  SeleniumUtils -TheCerner01 value is typed in the 'Password Textbox' text box
+00:00:15.191 INFO  UserExperienceCases -Click sign in button 
+
+00:00:15.194 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  Login button to be available
+00:00:15.222 INFO  SeleniumUtils -The control took  -  28 to be loaded
+00:00:19.583 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  Login button to be available
+00:00:49.901 ERROR SeleniumUtils -The element Login button not appeared due toExpected condition failed: waiting for visibility of element located by By.xpath: .//button[@id="signin"] (tried for 30 second(s) with 500 milliseconds interval)
+00:00:49.902 INFO  SeleniumUtils -The  Login button is pressed
+00:00:49.902 INFO  UserExperienceCases -Click the go to service 
+
+00:00:49.911 INFO  SeleniumUtils -Waiting for max:: 30 seconds for Appointment icon to be available
+00:00:50.003 INFO  SeleniumUtils -The control took  -  92 to be loaded
+00:00:50.017 INFO  SeleniumUtils -'Appointment Icon' Element is Present
+00:00:50.017 INFO  UserExperienceCases -The count of clicks is 3
+00:02:22.730 INFO  TestBase -Open the browser
+00:02:22.733 INFO  TestBase -Browser Started...
+00:02:52.220 INFO  TestBase -Web application opened
+00:02:52.260 INFO  UserExperienceCases -
+ -------------START VALIDATING THAT USER CAN NAVIGATE TO SERVICE PAGE BY 3 CLICKS OR LESS----------- 
+00:02:52.260 INFO  UserExperienceCases -
+ Click the close popup button 
+00:02:52.268 INFO  SeleniumUtils -Waiting for max:: 30 seconds for Close button of the welcome pop up to be available
+00:02:52.333 INFO  SeleniumUtils -The control took  -  65 to be loaded
+00:02:53.181 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  The Welcome to Ministry of Health and Prevention Website close button to be available
+00:02:53.215 INFO  SeleniumUtils -The control took  -  34 to be loaded
+00:02:53.215 INFO  SeleniumUtils -The  The Welcome to Ministry of Health and Prevention Website close button is pressed
+00:02:53.215 INFO  UserExperienceCases -
+ Hover over the service menu 
+00:02:53.220 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  serviceMenu Menu to be available
+00:02:53.257 INFO  SeleniumUtils -The control took  -  37 to be loaded
+00:02:53.581 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  serviceMenu Menu to be available
+00:02:53.612 INFO  SeleniumUtils -The control took  -  31 to be loaded
+00:02:53.612 INFO  SeleniumUtils -The  serviceMenu Menu is pressed
+00:02:53.612 INFO  UserExperienceCases -
+ Click the service link 
+00:02:53.615 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  Service list item to be available
+00:02:53.660 INFO  SeleniumUtils -The control took  -  44 to be loaded
+00:02:59.820 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  Service list item to be available
+00:03:29.941 ERROR SeleniumUtils -The element Service list item not appeared due toExpected condition failed: waiting for visibility of element located by By.xpath: .//ul[@class='dropdown-menu']//a[text()='Services'] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-R86KN5M', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\ZAHRAA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56747}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 170f7b741d31e8d51b622577254a3610
+00:03:29.942 INFO  SeleniumUtils -The  Service list item is pressed
+00:03:29.950 INFO  UserExperienceCases -
+ search for the service name 
+00:03:29.955 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  service search Textbox to be available
+00:03:29.992 INFO  SeleniumUtils -The control took  -  37 to be loaded
+00:03:30.004 INFO  SeleniumUtils -'Serch service control' Element is Present
+00:03:30.448 INFO  SeleniumUtils -TheDental Treatment value is typed in the 'UserName' text box
+00:03:30.449 INFO  UserExperienceCases -
+ Click the search result 
+00:03:30.452 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  search result to be available
+00:03:30.485 INFO  SeleniumUtils -The control took  -  32 to be loaded
+00:04:47.433 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  serviceMenu Menu to be available
+00:05:17.716 ERROR SeleniumUtils -The element serviceMenu Menu not appeared due toExpected condition failed: waiting for visibility of element located by By.xpath: .//div[@id='searchResults']//span[text()='Dental Treatment'] (tried for 30 second(s) with 500 milliseconds interval)
+00:05:17.716 INFO  SeleniumUtils -The  serviceMenu Menu is pressed
+00:05:17.717 INFO  UserExperienceCases -
+ Click the go to service 
+00:05:17.726 INFO  SeleniumUtils -Waiting for max:: 30 seconds for Go to service to be available
+00:05:17.778 INFO  SeleniumUtils -The control took  -  51 to be loaded
+00:05:17.789 INFO  SeleniumUtils -'Go to service button' Element is Present
+00:05:17.904 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  Go to service to be available
+00:05:17.939 INFO  SeleniumUtils -The control took  -  34 to be loaded
+00:05:17.939 INFO  SeleniumUtils -The  Go to service is pressed
+00:05:17.953 INFO  UserExperienceCases -Enter the service user name 
+
+00:05:17.955 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  UserName Textbox to be available
+00:05:53.166 INFO  SeleniumUtils -The control took  -  35210 to be loaded
+00:05:53.294 INFO  SeleniumUtils -Theminhaeprod12 value is typed in the 'UserName' text box
+00:05:53.294 INFO  UserExperienceCases -Enter the service password 
+
+00:05:53.296 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  Password Textbox to be available
+00:05:53.330 INFO  SeleniumUtils -The control took  -  34 to be loaded
+00:05:53.444 INFO  SeleniumUtils -TheCerner01 value is typed in the 'Password Textbox' text box
+00:05:53.444 INFO  UserExperienceCases -Click sign in button 
+
+00:05:53.447 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  Login button to be available
+00:05:53.483 INFO  SeleniumUtils -The control took  -  36 to be loaded
+00:06:14.733 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  Login button to be available
+00:06:44.944 ERROR SeleniumUtils -The element Login button not appeared due toExpected condition failed: waiting for visibility of element located by By.xpath: .//button[@id="signin"] (tried for 30 second(s) with 500 milliseconds interval)
+00:06:44.945 INFO  SeleniumUtils -The  Login button is pressed
+00:06:44.945 INFO  UserExperienceCases -Click the go to service 
+
+00:06:44.955 INFO  SeleniumUtils -Waiting for max:: 30 seconds for Appointment icon to be available
+00:07:15.201 ERROR SeleniumUtils -The elementAppointment icon not appeared due toExpected condition failed: waiting for visibility of element located by By.xpath: .//span[@class='icon-client-appointments icon-block nav--icon'] (tried for 30 second(s) with 500 milliseconds interval)
+00:07:15.212 ERROR SeleniumUtils -'Appointment Icon' Element is not Present due to[Ljava.lang.StackTraceElement;@7cc1f72c
+00:07:15.212 INFO  UserExperienceCases -The count of clicks is 2
+00:07:58.253 INFO  TestBase -Open the browser
+00:07:58.256 INFO  TestBase -Browser Started...
+01:02:07.534 INFO  TestBase -Browser Started...
+01:03:52.859 INFO  TestBase -Web application opened
+01:03:52.932 INFO  UserExperienceCases -
+ -------------START VALIDATING THAT USER CAN NAVIGATE TO SERVICE PAGE BY 3 CLICKS OR LESS----------- 
+01:03:52.932 INFO  UserExperienceCases -
+ Click the close popup button 
+01:03:52.942 INFO  SeleniumUtils -Waiting for max:: 30 seconds for Close button of the welcome pop up to be available
+01:03:53.013 INFO  SeleniumUtils -The control took  -  71 to be loaded
+01:03:53.858 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  The Welcome to Ministry of Health and Prevention Website close button to be available
+01:03:53.895 INFO  SeleniumUtils -The control took  -  37 to be loaded
+01:03:53.896 INFO  SeleniumUtils -The  The Welcome to Ministry of Health and Prevention Website close button is pressed
+01:03:53.896 INFO  UserExperienceCases -
+ Hover over the service menu 
+01:03:53.899 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  serviceMenu Menu to be available
+01:03:53.932 INFO  SeleniumUtils -The control took  -  32 to be loaded
+01:03:54.227 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  serviceMenu Menu to be available
+01:03:54.266 INFO  SeleniumUtils -The control took  -  39 to be loaded
+01:03:54.266 INFO  SeleniumUtils -The  serviceMenu Menu is pressed
+01:03:54.266 INFO  UserExperienceCases -
+ Click the service link 
+01:03:54.269 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  Service list item to be available
+01:03:54.303 INFO  SeleniumUtils -The control took  -  34 to be loaded
+01:04:06.671 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  Service list item to be available
+01:04:36.689 ERROR SeleniumUtils -The element Service list item not appeared due toExpected condition failed: waiting for visibility of element located by By.xpath: .//ul[@class='dropdown-menu']//a[text()='Services'] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-R86KN5M', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\ZAHRAA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58929}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: f21e3d208d0d916b9768fc0088e6c646
+01:04:36.690 INFO  SeleniumUtils -The  Service list item is pressed
+01:04:36.712 INFO  UserExperienceCases -
+ search for the service name 
+01:04:36.718 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  service search Textbox to be available
+01:04:36.767 INFO  SeleniumUtils -The control took  -  49 to be loaded
+01:04:36.781 INFO  SeleniumUtils -'Serch service control' Element is Present
+01:04:37.309 INFO  SeleniumUtils -TheDental Treatment value is typed in the 'UserName' text box
+01:04:37.309 INFO  UserExperienceCases -
+ Click the search result 
+01:04:37.312 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  search result to be available
+01:04:37.344 INFO  SeleniumUtils -The control took  -  32 to be loaded
+01:04:41.762 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  serviceMenu Menu to be available
+01:05:12.135 ERROR SeleniumUtils -The element serviceMenu Menu not appeared due toExpected condition failed: waiting for visibility of element located by By.xpath: .//div[@id='searchResults']//span[text()='Dental Treatment'] (tried for 30 second(s) with 500 milliseconds interval)
+01:05:12.136 INFO  SeleniumUtils -The  serviceMenu Menu is pressed
+01:05:12.136 INFO  UserExperienceCases -
+ Click the go to service 
+01:05:12.143 INFO  SeleniumUtils -Waiting for max:: 30 seconds for Go to service to be available
+01:05:12.216 INFO  SeleniumUtils -The control took  -  72 to be loaded
+01:05:12.229 INFO  SeleniumUtils -'Go to service button' Element is Present
+01:05:12.379 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  Go to service to be available
+01:05:12.404 INFO  SeleniumUtils -The control took  -  25 to be loaded
+01:05:12.405 INFO  SeleniumUtils -The  Go to service is pressed
+01:05:12.417 INFO  UserExperienceCases -Enter the service user name 
+
+01:05:12.420 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  UserName Textbox to be available
+01:05:35.469 INFO  SeleniumUtils -The control took  -  23047 to be loaded
+01:05:35.590 INFO  SeleniumUtils -Theminhaeprod12 value is typed in the 'UserName' text box
+01:05:35.590 INFO  UserExperienceCases -Enter the service password 
+
+01:05:35.592 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  Password Textbox to be available
+01:05:35.624 INFO  SeleniumUtils -The control took  -  32 to be loaded
+01:05:35.729 INFO  SeleniumUtils -TheCerner01 value is typed in the 'Password Textbox' text box
+01:05:35.729 INFO  UserExperienceCases -Click sign in button 
+
+01:05:35.731 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  Login button to be available
+01:05:35.761 INFO  SeleniumUtils -The control took  -  30 to be loaded
+01:05:54.286 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  Login button to be available
+01:06:24.610 ERROR SeleniumUtils -The element Login button not appeared due toExpected condition failed: waiting for visibility of element located by By.xpath: .//button[@id="signin"] (tried for 30 second(s) with 500 milliseconds interval)
+01:06:24.611 INFO  SeleniumUtils -The  Login button is pressed
+01:06:24.611 INFO  UserExperienceCases -Click the go to service 
+
+01:06:24.620 INFO  SeleniumUtils -Waiting for max:: 30 seconds for Appointment icon to be available
+01:06:24.689 INFO  SeleniumUtils -The control took  -  68 to be loaded
+01:06:24.703 INFO  SeleniumUtils -'Appointment Icon' Element is Present
+01:06:24.704 INFO  UserExperienceCases -The count of clicks is 3
+01:10:18.969 INFO  TestBase -Browser Started...
+01:10:51.815 INFO  TestBase -Browser Started...
+01:12:27.151 INFO  TestBase -Web application opened
+01:12:27.229 INFO  UserExperienceCases -
+ -------------START VALIDATING THAT USER CAN NAVIGATE TO SERVICE PAGE BY 3 CLICKS OR LESS----------- 
+01:12:27.229 INFO  UserExperienceCases -
+ Click the close popup button 
+01:12:27.236 INFO  SeleniumUtils -Waiting for max:: 30 seconds for Close button of the welcome pop up to be available
+01:19:09.956 INFO  TestBase -Browser Started...
+01:19:50.910 INFO  TestBase -Browser Started...
+01:21:18.694 INFO  TestBase -Web application opened
+01:21:18.756 INFO  UserExperienceCases -
+ -------------START VALIDATING THAT USER CAN NAVIGATE TO SERVICE PAGE BY 3 CLICKS OR LESS----------- 
+01:21:18.757 INFO  UserExperienceCases -
+ Click the close popup button 
+01:21:18.766 INFO  SeleniumUtils -Waiting for max:: 30 seconds for Close button of the welcome pop up to be available
+01:21:18.833 INFO  SeleniumUtils -The control took  -  67 to be loaded
+01:21:19.697 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  The Welcome to Ministry of Health and Prevention Website close button to be available
+01:21:19.754 INFO  SeleniumUtils -The control took  -  57 to be loaded
+01:21:19.754 INFO  SeleniumUtils -The  The Welcome to Ministry of Health and Prevention Website close button is pressed
+01:21:19.754 INFO  UserExperienceCases -
+ Hover over the service menu 
+01:21:19.758 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  serviceMenu Menu to be available
+01:21:19.791 INFO  SeleniumUtils -The control took  -  33 to be loaded
+01:21:20.054 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  serviceMenu Menu to be available
+01:21:20.089 INFO  SeleniumUtils -The control took  -  35 to be loaded
+01:21:20.089 INFO  SeleniumUtils -The  serviceMenu Menu is pressed
+01:21:20.089 INFO  UserExperienceCases -
+ Click the service link 
+01:21:20.093 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  Service list item to be available
+01:21:20.126 INFO  SeleniumUtils -The control took  -  33 to be loaded
+01:21:26.969 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  Service list item to be available
+01:21:57.317 ERROR SeleniumUtils -The element Service list item not appeared due toExpected condition failed: waiting for visibility of element located by By.xpath: .//ul[@class='dropdown-menu']//a[text()='Services'] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-R86KN5M', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\ZAHRAA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59771}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ab05ab5e069a38c53ccab30506caa41e
+01:21:57.317 INFO  SeleniumUtils -The  Service list item is pressed
+01:21:57.330 INFO  UserExperienceCases -
+ search for the service name 
+01:21:57.333 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  service search Textbox to be available
+01:21:57.364 INFO  SeleniumUtils -The control took  -  31 to be loaded
+01:21:57.373 INFO  SeleniumUtils -'Serch service control' Element is Present
+01:21:57.888 INFO  SeleniumUtils -TheDental Treatment value is typed in the 'UserName' text box
+01:21:57.888 INFO  UserExperienceCases -
+ Click the search result 
+01:21:57.891 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  search result to be available
+01:21:57.919 INFO  SeleniumUtils -The control took  -  28 to be loaded
+01:22:00.938 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  serviceMenu Menu to be available
+01:22:31.174 ERROR SeleniumUtils -The element serviceMenu Menu not appeared due toExpected condition failed: waiting for visibility of element located by By.xpath: .//div[@id='searchResults']//span[text()='Dental Treatment'] (tried for 30 second(s) with 500 milliseconds interval)
+01:22:31.174 INFO  SeleniumUtils -The  serviceMenu Menu is pressed
+01:22:31.174 INFO  UserExperienceCases -
+ Click the go to service 
+01:22:31.179 INFO  SeleniumUtils -Waiting for max:: 30 seconds for Go to service to be available
+01:22:31.215 INFO  SeleniumUtils -The control took  -  36 to be loaded
+01:22:31.223 INFO  SeleniumUtils -'Go to service button' Element is Present
+01:22:31.331 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  Go to service to be available
+01:22:31.359 INFO  SeleniumUtils -The control took  -  28 to be loaded
+01:22:31.359 INFO  SeleniumUtils -The  Go to service is pressed
+01:22:31.374 INFO  UserExperienceCases -Enter the service user name 
+
+01:22:31.376 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  UserName Textbox to be available
+01:25:09.879 ERROR SeleniumUtils -The element UserName Textbox not appeared due toExpected condition failed: waiting for visibility of element located by By.xpath: .//input[@id="id_login_username"] (tried for 30 second(s) with 500 milliseconds interval)
+02:02:13.525 INFO  TestBase -Web application opened
+02:02:13.562 INFO  UserExperienceCases -
+ -------------START VALIDATING THAT USER CAN NAVIGATE TO SERVICE PAGE BY 3 CLICKS OR LESS----------- 
+02:02:13.563 INFO  UserExperienceCases -
+ Click the close popup button 
+02:02:13.573 INFO  SeleniumUtils -Waiting for max:: 30 seconds for Close button of the welcome pop up to be available
+02:02:44.051 ERROR SeleniumUtils -The elementClose button of the welcome pop up not appeared due toExpected condition failed: waiting for visibility of element located by By.xpath: //button[@class='btn btn-default' and contains(text(),"Close")] (tried for 30 second(s) with 500 milliseconds interval)
+02:02:44.055 ERROR SeleniumUtils -The  The Welcome to Ministry of Health and Prevention Website close button not pressed due to no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=83.0.4103.61)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-R86KN5M', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\ZAHRAA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61507}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 37be1814402ce13f7aabbe1a5cdcbd6b
+*** Element info: {Using=xpath, value=//button[@class='btn btn-default' and contains(text(),"Close")]}
+02:02:44.055 INFO  UserExperienceCases -
+ Hover over the service menu 
+02:02:44.059 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  serviceMenu Menu to be available
+02:03:14.463 ERROR SeleniumUtils -The element serviceMenu Menu not appeared due toExpected condition failed: waiting for visibility of element located by By.xpath: .//a[text()='Services' and @data-toggle='dropdown'] (tried for 30 second(s) with 500 milliseconds interval)
+02:03:14.467 ERROR SeleniumUtils -The  serviceMenu Menu not pressed due to no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=83.0.4103.61)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-R86KN5M', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\ZAHRAA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61507}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 37be1814402ce13f7aabbe1a5cdcbd6b
+*** Element info: {Using=xpath, value=.//a[text()='Services' and @data-toggle='dropdown']}
+02:03:14.467 INFO  UserExperienceCases -
+ Click the service link 
+02:03:14.472 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  Service list item to be available
+02:03:44.787 ERROR SeleniumUtils -The element Service list item not appeared due toExpected condition failed: waiting for visibility of element located by By.xpath: .//ul[@class='dropdown-menu']//a[text()='Services'] (tried for 30 second(s) with 500 milliseconds interval)
+02:03:44.795 ERROR SeleniumUtils -The  Service list item not pressed due to no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=83.0.4103.61)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-R86KN5M', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\ZAHRAA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61507}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 37be1814402ce13f7aabbe1a5cdcbd6b
+*** Element info: {Using=xpath, value=.//ul[@class='dropdown-menu']//a[text()='Services']}
+02:06:29.211 INFO  TestBase -Web application opened
+02:06:29.239 INFO  UserExperienceCases -
+ -------------START VALIDATING THAT USER CAN NAVIGATE TO SERVICE PAGE BY 3 CLICKS OR LESS----------- 
+02:06:29.239 INFO  UserExperienceCases -
+ Click the close popup button 
+02:06:29.253 INFO  SeleniumUtils -Waiting for max:: 30 seconds for Close button of the welcome pop up to be available
+02:06:59.496 ERROR SeleniumUtils -The elementClose button of the welcome pop up not appeared due toExpected condition failed: waiting for visibility of element located by By.xpath: //button[@class='btn btn-default' and contains(text(),"Close")] (tried for 30 second(s) with 500 milliseconds interval)
+02:06:59.514 ERROR SeleniumUtils -The  The Welcome to Ministry of Health and Prevention Website close button not pressed due to no such element: Unable to locate element: {"method":"xpath","selector":"//button[@class='btn btn-default' and contains(text(),"Close")]"}
+  (Session info: chrome=83.0.4103.61)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-R86KN5M', ip: '127.0.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\ZAHRAA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61820}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: be0ba079a1322cfa4ff526f2447a3b0e
+*** Element info: {Using=xpath, value=//button[@class='btn btn-default' and contains(text(),"Close")]}
+02:06:59.515 INFO  UserExperienceCases -
+ Hover over the service menu 
+02:06:59.520 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  serviceMenu Menu to be available
+02:07:29.759 ERROR SeleniumUtils -The element serviceMenu Menu not appeared due toExpected condition failed: waiting for visibility of element located by By.xpath: .//a[text()='Services' and @data-toggle='dropdown'] (tried for 30 second(s) with 500 milliseconds interval)
+02:07:29.790 ERROR SeleniumUtils -The  serviceMenu Menu not pressed due to no such element: Unable to locate element: {"method":"xpath","selector":".//a[text()='Services' and @data-toggle='dropdown']"}
+  (Session info: chrome=83.0.4103.61)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-R86KN5M', ip: '127.0.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\ZAHRAA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61820}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: be0ba079a1322cfa4ff526f2447a3b0e
+*** Element info: {Using=xpath, value=.//a[text()='Services' and @data-toggle='dropdown']}
+02:07:29.791 INFO  UserExperienceCases -
+ Click the service link 
+02:07:29.805 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  Service list item to be available
+02:08:00.072 ERROR SeleniumUtils -The element Service list item not appeared due toExpected condition failed: waiting for visibility of element located by By.xpath: .//ul[@class='dropdown-menu']//a[text()='Services'] (tried for 30 second(s) with 500 milliseconds interval)
+02:08:00.081 ERROR SeleniumUtils -The  Service list item not pressed due to no such element: Unable to locate element: {"method":"xpath","selector":".//ul[@class='dropdown-menu']//a[text()='Services']"}
+  (Session info: chrome=83.0.4103.61)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-R86KN5M', ip: '127.0.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\ZAHRAA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61820}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: be0ba079a1322cfa4ff526f2447a3b0e
+*** Element info: {Using=xpath, value=.//ul[@class='dropdown-menu']//a[text()='Services']}
+02:08:00.088 INFO  UserExperienceCases -
+ search for the service name 
+02:08:00.091 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  service search Textbox to be available
+02:08:30.356 ERROR SeleniumUtils -The element service search Textbox not appeared due toExpected condition failed: waiting for visibility of element located by By.xpath: .//input[@placeholder="Service Name"] (tried for 30 second(s) with 500 milliseconds interval)
+02:08:30.373 ERROR SeleniumUtils -'Serch service control' Element is not Present due to[Ljava.lang.StackTraceElement;@4a8ffd75
+02:08:30.374 INFO  UserExperienceCases -
+ Click the search result 
+02:08:30.376 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  search result to be available
+02:09:00.620 ERROR SeleniumUtils -The element search result not appeared due toExpected condition failed: waiting for visibility of element located by By.xpath: .//div[@id='searchResults']//span[text()='Dental Treatment'] (tried for 30 second(s) with 500 milliseconds interval)
+02:09:00.636 ERROR SeleniumUtils -The  serviceMenu Menu not pressed due to no such element: Unable to locate element: {"method":"xpath","selector":".//div[@id='searchResults']//span[text()='Dental Treatment']"}
+  (Session info: chrome=83.0.4103.61)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-R86KN5M', ip: '127.0.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\ZAHRAA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61820}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: be0ba079a1322cfa4ff526f2447a3b0e
+*** Element info: {Using=xpath, value=.//div[@id='searchResults']//span[text()='Dental Treatment']}
+02:09:00.637 INFO  UserExperienceCases -
+ Click the go to service 
+02:09:00.642 INFO  SeleniumUtils -Waiting for max:: 30 seconds for Go to service to be available
+02:13:31.313 INFO  TestBase -Web application opened
+02:13:31.367 INFO  UserExperienceCases -
+ -------------START VALIDATING THAT USER CAN NAVIGATE TO SERVICE PAGE BY 3 CLICKS OR LESS----------- 
+02:13:31.367 INFO  UserExperienceCases -
+ Click the close popup button 
+02:13:31.389 INFO  SeleniumUtils -Waiting for max:: 30 seconds for Close button of the welcome pop up to be available
+02:16:05.769 INFO  TestBase -Web application opened
+02:16:05.794 INFO  UserExperienceCases -
+ -------------START VALIDATING THAT USER CAN NAVIGATE TO SERVICE PAGE BY 3 CLICKS OR LESS----------- 
+02:16:05.794 INFO  UserExperienceCases -
+ Click the close popup button 
+02:16:05.804 INFO  SeleniumUtils -Waiting for max:: 30 seconds for Close button of the welcome pop up to be available
+02:16:05.872 INFO  SeleniumUtils -The control took  -  66 to be loaded
+02:16:06.779 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  The Welcome to Ministry of Health and Prevention Website close button to be available
+02:16:06.847 INFO  SeleniumUtils -The control took  -  68 to be loaded
+02:16:06.848 INFO  SeleniumUtils -The  The Welcome to Ministry of Health and Prevention Website close button is pressed
+02:16:06.849 INFO  UserExperienceCases -
+ Hover over the service menu 
+02:16:06.854 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  serviceMenu Menu to be available
+02:16:06.898 INFO  SeleniumUtils -The control took  -  43 to be loaded
+02:16:07.136 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  serviceMenu Menu to be available
+02:16:07.168 INFO  SeleniumUtils -The control took  -  32 to be loaded
+02:16:07.168 INFO  SeleniumUtils -The  serviceMenu Menu is pressed
+02:16:07.168 INFO  UserExperienceCases -
+ Click the service link 
+02:16:07.171 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  Service list item to be available
+02:16:07.208 INFO  SeleniumUtils -The control took  -  37 to be loaded
+02:16:13.228 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  Service list item to be available
+02:16:43.654 ERROR SeleniumUtils -The element Service list item not appeared due toExpected condition failed: waiting for visibility of element located by By.xpath: .//ul[@class='dropdown-menu']//a[text()='Services'] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-R86KN5M', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\ZAHRAA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62187}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 288faf73b7c61091933fa5ad9f236d91
+02:16:43.655 INFO  SeleniumUtils -The  Service list item is pressed
+02:16:43.666 INFO  UserExperienceCases -
+ search for the service name 
+02:16:43.672 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  service search Textbox to be available
+02:16:43.716 INFO  SeleniumUtils -The control took  -  44 to be loaded
+02:16:43.732 INFO  SeleniumUtils -'Serch service control' Element is Present
+02:16:44.335 INFO  SeleniumUtils -TheDental Treatment value is typed in the 'UserName' text box
+02:16:44.335 INFO  UserExperienceCases -
+ Click the search result 
+02:16:44.337 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  search result to be available
+02:16:44.369 INFO  SeleniumUtils -The control took  -  31 to be loaded
+02:17:07.726 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  serviceMenu Menu to be available
+02:17:37.920 ERROR SeleniumUtils -The element serviceMenu Menu not appeared due toExpected condition failed: waiting for visibility of element located by By.xpath: .//div[@id='searchResults']//span[text()='Dental Treatment'] (tried for 30 second(s) with 500 milliseconds interval)
+02:17:37.920 INFO  SeleniumUtils -The  serviceMenu Menu is pressed
+02:17:37.920 INFO  UserExperienceCases -
+ Click the go to service 
+02:17:37.924 INFO  SeleniumUtils -Waiting for max:: 30 seconds for Go to service to be available
+02:17:37.985 INFO  SeleniumUtils -The control took  -  61 to be loaded
+02:17:37.998 INFO  SeleniumUtils -'Go to service button' Element is Present
+02:17:38.141 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  Go to service to be available
+02:17:38.170 INFO  SeleniumUtils -The control took  -  29 to be loaded
+02:17:38.170 INFO  SeleniumUtils -The  Go to service is pressed
+02:17:38.183 INFO  UserExperienceCases -Enter the service user name 
+
+02:17:38.185 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  UserName Textbox to be available
+02:18:04.178 INFO  SeleniumUtils -The control took  -  25992 to be loaded
+02:18:04.316 INFO  SeleniumUtils -Theminhaeprod12 value is typed in the 'UserName' text box
+02:18:04.316 INFO  UserExperienceCases -Enter the service password 
+
+02:18:04.318 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  Password Textbox to be available
+02:18:04.350 INFO  SeleniumUtils -The control took  -  32 to be loaded
+02:18:04.473 INFO  SeleniumUtils -TheCerner01 value is typed in the 'Password Textbox' text box
+02:18:04.474 INFO  UserExperienceCases -Click sign in button 
+
+02:18:04.476 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  Login button to be available
+02:18:04.506 INFO  SeleniumUtils -The control took  -  30 to be loaded
+02:18:28.432 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  Login button to be available
+02:18:58.757 ERROR SeleniumUtils -The element Login button not appeared due toExpected condition failed: waiting for visibility of element located by By.xpath: .//button[@id="signin"] (tried for 30 second(s) with 500 milliseconds interval)
+02:18:58.758 INFO  SeleniumUtils -The  Login button is pressed
+02:18:58.758 INFO  UserExperienceCases -Click the go to service 
+
+02:18:58.768 INFO  SeleniumUtils -Waiting for max:: 30 seconds for Appointment icon to be available
+02:18:58.820 INFO  SeleniumUtils -The control took  -  51 to be loaded
+02:18:58.829 INFO  SeleniumUtils -'Appointment Icon' Element is Present
+02:18:58.830 INFO  UserExperienceCases -The count of clicks is 3
+02:42:56.390 INFO  TestBase -Web application opened
+02:42:56.435 INFO  SeleniumUtils -Waiting for max:: 30 seconds for Close button of the welcome pop up to be available
+02:42:56.497 INFO  SeleniumUtils -The control took  -  60 to be loaded
+02:42:57.403 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  The Welcome to Ministry of Health and Prevention Website close button to be available
+02:42:57.454 INFO  SeleniumUtils -The control took  -  49 to be loaded
+02:42:57.454 INFO  SeleniumUtils -The  The Welcome to Ministry of Health and Prevention Website close button is pressed
+02:42:57.454 INFO  UserExperienceCases -
+ Hover over the service menu 
+02:42:57.460 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  serviceMenu Menu to be available
+02:42:57.564 INFO  SeleniumUtils -The control took  -  104 to be loaded
+02:42:57.778 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  serviceMenu Menu to be available
+02:42:57.811 INFO  SeleniumUtils -The control took  -  33 to be loaded
+02:42:57.811 INFO  SeleniumUtils -The  serviceMenu Menu is pressed
+02:42:57.811 INFO  UserExperienceCases -
+ Click the service link 
+02:42:57.814 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  Service list item to be available
+02:42:57.844 INFO  SeleniumUtils -The control took  -  30 to be loaded
+02:43:01.932 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  Service list item to be available
+02:43:32.188 ERROR SeleniumUtils -The element Service list item not appeared due toExpected condition failed: waiting for visibility of element located by By.xpath: .//ul[@class='dropdown-menu']//a[text()='Services'] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-R86KN5M', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\ZAHRAA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63235}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 718e6c1f49646a09b210fd05c2e8af94
+02:43:32.188 INFO  SeleniumUtils -The  Service list item is pressed
+02:43:32.197 INFO  UserExperienceCases -
+ search for the service name 
+02:43:32.201 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  service search Textbox to be available
+02:43:32.233 INFO  SeleniumUtils -The control took  -  31 to be loaded
+02:43:32.243 INFO  SeleniumUtils -'Serch service control' Element is Present
+02:43:32.965 INFO  SeleniumUtils -TheDental Treatment value is typed in the 'UserName' text box
+02:43:32.965 INFO  UserExperienceCases -
+ Click the search result 
+02:43:32.968 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  search result to be available
+02:43:33.000 INFO  SeleniumUtils -The control took  -  32 to be loaded
+02:43:36.562 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  serviceMenu Menu to be available
+02:44:06.565 ERROR SeleniumUtils -The element serviceMenu Menu not appeared due toExpected condition failed: waiting for visibility of element located by By.xpath: .//div[@id='searchResults']//span[text()='Dental Treatment'] (tried for 30 second(s) with 500 milliseconds interval)
+02:44:06.565 INFO  SeleniumUtils -The  serviceMenu Menu is pressed
+02:44:06.566 INFO  UserExperienceCases -
+ Click the go to service 
+02:44:06.574 INFO  SeleniumUtils -Waiting for max:: 30 seconds for Go to service to be available
+02:44:06.629 INFO  SeleniumUtils -The control took  -  55 to be loaded
+02:44:06.640 INFO  SeleniumUtils -'Go to service button' Element is Present
+02:44:06.764 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  Go to service to be available
+02:44:06.794 INFO  SeleniumUtils -The control took  -  30 to be loaded
+02:44:06.794 INFO  SeleniumUtils -The  Go to service is pressed
+02:44:06.807 INFO  UserExperienceCases -Enter the service user name 
+
+02:44:06.810 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  UserName Textbox to be available
+02:44:12.429 INFO  SeleniumUtils -The control took  -  5618 to be loaded
+02:44:12.571 INFO  SeleniumUtils -Theminhaeprod12 value is typed in the 'UserName' text box
+02:44:12.572 INFO  UserExperienceCases -Enter the service password 
+
+02:44:12.574 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  Password Textbox to be available
+02:44:12.606 INFO  SeleniumUtils -The control took  -  32 to be loaded
+02:44:12.764 INFO  SeleniumUtils -TheCerner01 value is typed in the 'Password Textbox' text box
+02:44:12.764 INFO  UserExperienceCases -Click sign in button 
+
+02:44:12.769 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  Login button to be available
+02:44:12.815 INFO  SeleniumUtils -The control took  -  46 to be loaded
+02:44:19.063 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  Login button to be available
+02:44:49.362 ERROR SeleniumUtils -The element Login button not appeared due toExpected condition failed: waiting for visibility of element located by By.xpath: .//button[@id="signin"] (tried for 30 second(s) with 500 milliseconds interval)
+02:44:49.363 INFO  SeleniumUtils -The  Login button is pressed
+02:44:49.363 INFO  UserExperienceCases -Click the go to service 
+
+02:44:49.369 INFO  SeleniumUtils -Waiting for max:: 30 seconds for Appointment icon to be available
+02:44:49.429 INFO  SeleniumUtils -The control took  -  60 to be loaded
+02:44:49.444 INFO  SeleniumUtils -'Appointment Icon' Element is Present
+02:44:49.444 INFO  UserExperienceCases -The count of clicks is 3
+03:01:09.606 INFO  TestBase -Web application opened
+03:01:09.666 INFO  SeleniumUtils -Waiting for max:: 30 seconds for Close button of the welcome pop up to be available
+03:01:09.734 INFO  SeleniumUtils -The control took  -  65 to be loaded
+03:01:10.625 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  The Welcome to Ministry of Health and Prevention Website close button to be available
+03:01:10.660 INFO  SeleniumUtils -The control took  -  35 to be loaded
+03:01:10.660 INFO  SeleniumUtils -The  The Welcome to Ministry of Health and Prevention Website close button is pressed
+03:01:10.660 INFO  UserExperienceCases -
+ Hover over the service menu 
+03:01:10.664 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  serviceMenu Menu to be available
+03:01:10.709 INFO  SeleniumUtils -The control took  -  45 to be loaded
+03:01:11.005 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  serviceMenu Menu to be available
+03:01:11.042 INFO  SeleniumUtils -The control took  -  37 to be loaded
+03:01:11.042 INFO  SeleniumUtils -The  serviceMenu Menu is pressed
+03:01:11.042 INFO  UserExperienceCases -
+ Click the service link 
+03:01:11.045 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  Service list item to be available
+03:01:11.080 INFO  SeleniumUtils -The control took  -  35 to be loaded
+03:01:26.867 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  Service list item to be available
+03:01:57.164 ERROR SeleniumUtils -The element Service list item not appeared due toExpected condition failed: waiting for visibility of element located by By.xpath: .//ul[@class='dropdown-menu']//a[text()='Services'] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-R86KN5M', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\ZAHRAA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63970}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 985ed14cdda925255f64345d79412d37
+03:01:57.165 INFO  SeleniumUtils -The  Service list item is pressed
+03:01:57.172 INFO  UserExperienceCases -
+ search for the service name 
+03:01:57.175 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  service search Textbox to be available
+03:01:57.209 INFO  SeleniumUtils -The control took  -  34 to be loaded
+03:01:57.219 INFO  SeleniumUtils -'Serch service control' Element is Present
+03:01:57.702 INFO  SeleniumUtils -TheDental Treatment value is typed in the 'UserName' text box
+03:01:57.702 INFO  UserExperienceCases -
+ Click the search result 
+03:01:57.705 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  search result to be available
+03:01:57.741 INFO  SeleniumUtils -The control took  -  36 to be loaded
+03:02:00.064 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  serviceMenu Menu to be available
+03:02:30.203 ERROR SeleniumUtils -The element serviceMenu Menu not appeared due toExpected condition failed: waiting for visibility of element located by By.xpath: .//div[@id='searchResults']//span[text()='Dental Treatment'] (tried for 30 second(s) with 500 milliseconds interval)
+03:02:30.203 INFO  SeleniumUtils -The  serviceMenu Menu is pressed
+03:02:30.203 INFO  UserExperienceCases -
+ Click the go to service 
+03:02:30.206 INFO  SeleniumUtils -Waiting for max:: 30 seconds for Go to service to be available
+03:02:30.241 INFO  SeleniumUtils -The control took  -  35 to be loaded
+03:02:30.250 INFO  SeleniumUtils -'Go to service button' Element is Present
+03:02:30.363 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  Go to service to be available
+03:02:30.397 INFO  SeleniumUtils -The control took  -  34 to be loaded
+03:02:30.398 INFO  SeleniumUtils -The  Go to service is pressed
+03:02:30.411 INFO  UserExperienceCases -Enter the service user name 
+
+03:02:30.415 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  UserName Textbox to be available
+03:03:55.709 INFO  SeleniumUtils -The control took  -  85294 to be loaded
+03:03:55.833 INFO  SeleniumUtils -Theminhaeprod12 value is typed in the 'UserName' text box
+03:03:55.834 INFO  UserExperienceCases -Enter the service password 
+
+03:03:55.836 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  Password Textbox to be available
+03:03:55.869 INFO  SeleniumUtils -The control took  -  33 to be loaded
+03:03:55.995 INFO  SeleniumUtils -TheCerner01 value is typed in the 'Password Textbox' text box
+03:03:55.995 INFO  UserExperienceCases -Click sign in button 
+
+03:03:55.998 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  Login button to be available
+03:03:56.028 INFO  SeleniumUtils -The control took  -  30 to be loaded
+03:04:01.072 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  Login button to be available
+03:04:31.130 ERROR SeleniumUtils -The element Login button not appeared due toExpected condition failed: waiting for visibility of element located by By.xpath: .//button[@id="signin"] (tried for 30 second(s) with 500 milliseconds interval)
+03:04:31.131 INFO  SeleniumUtils -The  Login button is pressed
+03:04:31.131 INFO  UserExperienceCases -Click the go to service 
+
+03:04:31.133 INFO  SeleniumUtils -Waiting for max:: 30 seconds for Appointment icon to be available
+03:04:31.167 INFO  SeleniumUtils -The control took  -  33 to be loaded
+03:04:31.176 INFO  SeleniumUtils -'Appointment Icon' Element is Present
+03:04:31.176 INFO  UserExperienceCases -The count of clicks is 3
+03:07:21.409 INFO  TestBase -Web application opened
+03:07:21.458 INFO  SeleniumUtils -Waiting for max:: 30 seconds for Close button of the welcome pop up to be available
+03:07:21.521 INFO  SeleniumUtils -The control took  -  61 to be loaded
+03:07:22.406 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  The Welcome to Ministry of Health and Prevention Website close button to be available
+03:07:22.441 INFO  SeleniumUtils -The control took  -  34 to be loaded
+03:07:22.441 INFO  SeleniumUtils -The  The Welcome to Ministry of Health and Prevention Website close button is pressed
+03:07:22.441 INFO  UserExperienceCases -
+ Hover over the service menu 
+03:07:22.445 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  serviceMenu Menu to be available
+03:07:22.479 INFO  SeleniumUtils -The control took  -  34 to be loaded
+03:07:22.819 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  serviceMenu Menu to be available
+03:07:22.862 INFO  SeleniumUtils -The control took  -  43 to be loaded
+03:07:22.862 INFO  SeleniumUtils -The  serviceMenu Menu is pressed
+03:07:22.862 INFO  UserExperienceCases -
+ Click the service link 
+03:07:22.866 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  Service list item to be available
+03:07:22.949 INFO  SeleniumUtils -The control took  -  82 to be loaded
+03:07:25.494 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  Service list item to be available
+03:07:56.372 ERROR SeleniumUtils -The element Service list item not appeared due toExpected condition failed: waiting for visibility of element located by By.xpath: .//ul[@class='dropdown-menu']//a[text()='Services'] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-R86KN5M', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\ZAHRAA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64326}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e627bb5fed42bdaddcc713ef5f57071c
+03:07:56.372 INFO  SeleniumUtils -The  Service list item is pressed
+03:07:56.388 INFO  UserExperienceCases -
+ search for the service name 
+03:07:56.396 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  service search Textbox to be available
+03:07:56.436 INFO  SeleniumUtils -The control took  -  40 to be loaded
+03:07:56.451 INFO  SeleniumUtils -'Serch service control' Element is Present
+03:07:56.957 INFO  SeleniumUtils -TheDental Treatment value is typed in the 'UserName' text box
+03:07:56.957 INFO  UserExperienceCases -
+ Click the search result 
+03:07:56.960 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  search result to be available
+03:07:56.993 INFO  SeleniumUtils -The control took  -  33 to be loaded
+03:08:02.561 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  serviceMenu Menu to be available
+03:08:32.761 ERROR SeleniumUtils -The element serviceMenu Menu not appeared due toExpected condition failed: waiting for visibility of element located by By.xpath: .//div[@id='searchResults']//span[text()='Dental Treatment'] (tried for 30 second(s) with 500 milliseconds interval)
+03:08:32.762 INFO  SeleniumUtils -The  serviceMenu Menu is pressed
+03:08:32.762 INFO  UserExperienceCases -
+ Click the go to service 
+03:08:32.770 INFO  SeleniumUtils -Waiting for max:: 30 seconds for Go to service to be available
+03:08:32.839 INFO  SeleniumUtils -The control took  -  68 to be loaded
+03:08:32.852 INFO  SeleniumUtils -'Go to service button' Element is Present
+03:08:33.009 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  Go to service to be available
+03:08:33.040 INFO  SeleniumUtils -The control took  -  31 to be loaded
+03:08:33.040 INFO  SeleniumUtils -The  Go to service is pressed
+03:08:33.056 INFO  UserExperienceCases -Enter the service user name 
+
+03:08:33.059 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  UserName Textbox to be available
+03:08:42.620 INFO  SeleniumUtils -The control took  -  9561 to be loaded
+03:08:42.755 INFO  SeleniumUtils -Theminhaeprod12 value is typed in the 'UserName' text box
+03:08:42.755 INFO  UserExperienceCases -Enter the service password 
+
+03:08:42.758 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  Password Textbox to be available
+03:08:42.790 INFO  SeleniumUtils -The control took  -  32 to be loaded
+03:08:42.903 INFO  SeleniumUtils -TheCerner01 value is typed in the 'Password Textbox' text box
+03:08:42.903 INFO  UserExperienceCases -Click sign in button 
+
+03:08:42.905 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  Login button to be available
+03:08:42.934 INFO  SeleniumUtils -The control took  -  29 to be loaded
+03:08:47.845 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  Login button to be available
+03:09:18.082 ERROR SeleniumUtils -The element Login button not appeared due toExpected condition failed: waiting for visibility of element located by By.xpath: .//button[@id="signin"] (tried for 30 second(s) with 500 milliseconds interval)
+03:09:18.082 INFO  SeleniumUtils -The  Login button is pressed
+03:09:18.082 INFO  UserExperienceCases -Click the go to service 
+
+03:09:18.085 INFO  SeleniumUtils -Waiting for max:: 30 seconds for Appointment icon to be available
+03:09:18.116 INFO  SeleniumUtils -The control took  -  31 to be loaded
+03:09:18.124 INFO  SeleniumUtils -'Appointment Icon' Element is Present
+03:09:18.125 INFO  UserExperienceCases -The count of clicks is 3
+03:15:35.536 INFO  TestBase -Web application opened
+03:15:35.576 INFO  SeleniumUtils -Waiting for max:: 30 seconds for Close button of the welcome pop up to be available
+03:24:12.528 INFO  TestBase -Web application opened
+03:24:12.573 INFO  SeleniumUtils -Waiting for max:: 30 seconds for Close button of the welcome pop up to be available
+03:24:12.632 INFO  SeleniumUtils -The control took  -  56 to be loaded
+03:24:13.553 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  The Welcome to Ministry of Health and Prevention Website close button to be available
+03:24:13.602 INFO  SeleniumUtils -The control took  -  49 to be loaded
+03:24:13.603 INFO  SeleniumUtils -The  The Welcome to Ministry of Health and Prevention Website close button is pressed
+03:24:13.607 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  serviceMenu Menu to be available
+03:24:13.640 INFO  SeleniumUtils -The control took  -  33 to be loaded
+03:24:13.947 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  serviceMenu Menu to be available
+03:24:14.051 INFO  SeleniumUtils -The control took  -  104 to be loaded
+03:24:14.051 INFO  SeleniumUtils -The  serviceMenu Menu is pressed
+03:24:14.057 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  Service list item to be available
+03:24:14.092 INFO  SeleniumUtils -The control took  -  35 to be loaded
+03:24:16.610 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  Service list item to be available
+03:24:46.635 ERROR SeleniumUtils -The element Service list item not appeared due toExpected condition failed: waiting for visibility of element located by By.xpath: .//ul[@class='dropdown-menu']//a[text()='Services'] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-R86KN5M', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\ZAHRAA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:65078}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 75bf614c13bcaff29631807113d69012
+03:24:46.635 INFO  SeleniumUtils -The  Service list item is pressed
+03:24:46.648 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  service search Textbox to be available
+03:24:46.678 INFO  SeleniumUtils -The control took  -  30 to be loaded
+03:24:46.688 INFO  SeleniumUtils -'Serch service control' Element is Present
+03:24:47.165 INFO  SeleniumUtils -TheDental Treatment value is typed in the 'UserName' text box
+03:24:47.169 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  search result to be available
+03:24:47.198 INFO  SeleniumUtils -The control took  -  28 to be loaded
+03:24:49.230 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  serviceMenu Menu to be available
+03:25:19.577 ERROR SeleniumUtils -The element serviceMenu Menu not appeared due toExpected condition failed: waiting for visibility of element located by By.xpath: .//div[@id='searchResults']//span[text()='Dental Treatment'] (tried for 30 second(s) with 500 milliseconds interval)
+03:25:19.578 INFO  SeleniumUtils -The  serviceMenu Menu is pressed
+03:25:19.586 INFO  SeleniumUtils -Waiting for max:: 30 seconds for Go to service to be available
+03:25:19.656 INFO  SeleniumUtils -The control took  -  69 to be loaded
+03:25:19.667 INFO  SeleniumUtils -'Go to service button' Element is Present
+03:25:19.778 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  Go to service to be available
+03:25:19.808 INFO  SeleniumUtils -The control took  -  30 to be loaded
+03:25:19.808 INFO  SeleniumUtils -The  Go to service is pressed
+03:25:19.826 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  UserName Textbox to be available
+03:25:26.133 INFO  SeleniumUtils -The control took  -  6307 to be loaded
+03:25:26.249 INFO  SeleniumUtils -Theminhaeprod12 value is typed in the 'UserName' text box
+03:25:26.252 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  Password Textbox to be available
+03:25:26.285 INFO  SeleniumUtils -The control took  -  33 to be loaded
+03:25:26.403 INFO  SeleniumUtils -TheCerner01 value is typed in the 'Password Textbox' text box
+03:25:26.407 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  Login button to be available
+03:25:26.433 INFO  SeleniumUtils -The control took  -  26 to be loaded
+03:25:37.605 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  Login button to be available
+03:26:07.895 ERROR SeleniumUtils -The element Login button not appeared due toExpected condition failed: waiting for visibility of element located by By.xpath: .//button[@id="signin"] (tried for 30 second(s) with 500 milliseconds interval)
+03:26:07.895 INFO  SeleniumUtils -The  Login button is pressed
+03:26:07.903 INFO  SeleniumUtils -Waiting for max:: 30 seconds for Appointment icon to be available
+03:26:07.967 INFO  SeleniumUtils -The control took  -  64 to be loaded
+03:26:07.983 INFO  SeleniumUtils -'Appointment Icon' Element is Present
+04:28:52.733 INFO  TestBase -Web application opened
+04:28:52.779 INFO  SeleniumUtils -Waiting for max:: 30 seconds for Close button of the welcome pop up to be available
+04:28:52.841 INFO  SeleniumUtils -The control took  -  60 to be loaded
+04:28:53.778 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  The Welcome to Ministry of Health and Prevention Website close button to be available
+04:28:53.819 INFO  SeleniumUtils -The control took  -  41 to be loaded
+04:28:53.819 INFO  SeleniumUtils -The  The Welcome to Ministry of Health and Prevention Website close button is pressed
+04:28:53.822 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  serviceMenu Menu to be available
+04:28:53.867 INFO  SeleniumUtils -The control took  -  44 to be loaded
+04:28:54.114 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  serviceMenu Menu to be available
+04:28:54.147 INFO  SeleniumUtils -The control took  -  33 to be loaded
+04:28:54.147 INFO  SeleniumUtils -The  serviceMenu Menu is pressed
+04:28:54.150 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  Service list item to be available
+04:28:54.184 INFO  SeleniumUtils -The control took  -  33 to be loaded
+04:28:56.696 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  Service list item to be available
+04:29:26.847 ERROR SeleniumUtils -The element Service list item not appeared due toExpected condition failed: waiting for visibility of element located by By.xpath: .//ul[@class='dropdown-menu']//a[text()='Services'] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-R86KN5M', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\ZAHRAA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51178}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ca0cb7891dfb89415c8582239ec38851
+04:29:26.847 INFO  SeleniumUtils -The  Service list item is pressed
+04:29:26.873 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  service search Textbox to be available
+04:29:26.945 INFO  SeleniumUtils -The control took  -  72 to be loaded
+04:29:26.965 INFO  SeleniumUtils -'Serch service control' Element is Present
+04:29:27.461 INFO  SeleniumUtils -TheDental Treatment value is typed in the 'UserName' text box
+04:29:27.464 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  search result to be available
+04:29:27.495 INFO  SeleniumUtils -The control took  -  31 to be loaded
+04:29:29.517 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  serviceMenu Menu to be available
+04:30:00.008 ERROR SeleniumUtils -The element serviceMenu Menu not appeared due toExpected condition failed: waiting for visibility of element located by By.xpath: .//div[@id='searchResults']//span[text()='Dental Treatment'] (tried for 30 second(s) with 500 milliseconds interval)
+04:30:00.009 INFO  SeleniumUtils -The  serviceMenu Menu is pressed
+04:30:00.017 INFO  SeleniumUtils -Waiting for max:: 30 seconds for Go to service to be available
+04:30:00.057 INFO  SeleniumUtils -The control took  -  40 to be loaded
+04:30:00.065 INFO  SeleniumUtils -'Go to service button' Element is Present
+04:30:00.182 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  Go to service to be available
+04:30:00.209 INFO  SeleniumUtils -The control took  -  27 to be loaded
+04:30:00.210 INFO  SeleniumUtils -The  Go to service is pressed
+04:30:00.226 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  UserName Textbox to be available
+04:30:08.898 INFO  SeleniumUtils -The control took  -  8672 to be loaded
+04:30:09.027 INFO  SeleniumUtils -Theminhaeprod12 value is typed in the 'UserName' text box
+04:30:09.029 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  Password Textbox to be available
+04:30:09.066 INFO  SeleniumUtils -The control took  -  37 to be loaded
+04:30:09.173 INFO  SeleniumUtils -TheCerner01 value is typed in the 'Password Textbox' text box
+04:30:09.176 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  Login button to be available
+04:30:09.207 INFO  SeleniumUtils -The control took  -  31 to be loaded
+04:30:17.515 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  Login button to be available
+04:30:47.783 ERROR SeleniumUtils -The element Login button not appeared due toExpected condition failed: waiting for visibility of element located by By.xpath: .//button[@id="signin"] (tried for 30 second(s) with 500 milliseconds interval)
+04:30:47.784 INFO  SeleniumUtils -The  Login button is pressed
+04:30:47.792 INFO  SeleniumUtils -Waiting for max:: 30 seconds for Appointment icon to be available
+04:30:47.850 INFO  SeleniumUtils -The control took  -  57 to be loaded
+04:30:47.863 INFO  SeleniumUtils -'Appointment Icon' Element is Present
+04:38:31.320 INFO  TestBase -Web application opened
+04:38:31.350 INFO  SeleniumUtils -Waiting for max:: 30 seconds for Close button of the welcome pop up to be available
+04:38:31.411 INFO  SeleniumUtils -The control took  -  59 to be loaded
+04:38:32.347 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  The Welcome to Ministry of Health and Prevention Website close button to be available
+04:38:32.390 INFO  SeleniumUtils -The control took  -  42 to be loaded
+04:38:32.390 INFO  SeleniumUtils -The  The Welcome to Ministry of Health and Prevention Website close button is pressed
+04:38:32.393 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  serviceMenu Menu to be available
+04:38:32.426 INFO  SeleniumUtils -The control took  -  33 to be loaded
+04:38:32.712 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  serviceMenu Menu to be available
+04:38:32.741 INFO  SeleniumUtils -The control took  -  29 to be loaded
+04:38:32.742 INFO  SeleniumUtils -The  serviceMenu Menu is pressed
+04:38:32.745 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  Service list item to be available
+04:38:32.797 INFO  SeleniumUtils -The control took  -  52 to be loaded
+04:38:36.009 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  Service list item to be available
+04:39:06.104 ERROR SeleniumUtils -The element Service list item not appeared due toExpected condition failed: waiting for visibility of element located by By.xpath: .//ul[@class='dropdown-menu']//a[text()='Services'] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-R86KN5M', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\ZAHRAA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51642}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 56174114a791a2bba13a087cfccd28b0
+04:39:06.104 INFO  SeleniumUtils -The  Service list item is pressed
+04:39:06.136 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  service search Textbox to be available
+04:39:06.169 INFO  SeleniumUtils -The control took  -  32 to be loaded
+04:39:06.178 INFO  SeleniumUtils -'Serch service control' Element is Present
+04:39:06.653 INFO  SeleniumUtils -TheDental Treatment value is typed in the 'UserName' text box
+04:39:06.656 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  search result to be available
+04:39:06.688 INFO  SeleniumUtils -The control took  -  32 to be loaded
+04:39:11.605 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  serviceMenu Menu to be available
+04:39:41.789 ERROR SeleniumUtils -The element serviceMenu Menu not appeared due toExpected condition failed: waiting for visibility of element located by By.xpath: .//div[@id='searchResults']//span[text()='Dental Treatment'] (tried for 30 second(s) with 500 milliseconds interval)
+04:39:41.789 INFO  SeleniumUtils -The  serviceMenu Menu is pressed
+04:39:41.798 INFO  SeleniumUtils -Waiting for max:: 30 seconds for Go to service to be available
+04:39:41.862 INFO  SeleniumUtils -The control took  -  64 to be loaded
+04:39:41.872 INFO  SeleniumUtils -'Go to service button' Element is Present
+04:39:41.981 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  Go to service to be available
+04:39:42.019 INFO  SeleniumUtils -The control took  -  38 to be loaded
+04:39:42.019 INFO  SeleniumUtils -The  Go to service is pressed
+04:39:42.036 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  UserName Textbox to be available
+04:39:47.072 INFO  SeleniumUtils -The control took  -  5035 to be loaded
+04:39:47.194 INFO  SeleniumUtils -Theminhaeprod12 value is typed in the 'UserName' text box
+04:39:47.197 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  Password Textbox to be available
+04:39:47.229 INFO  SeleniumUtils -The control took  -  32 to be loaded
+04:39:47.343 INFO  SeleniumUtils -TheCerner01 value is typed in the 'Password Textbox' text box
+04:39:47.345 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  Login button to be available
+04:39:47.374 INFO  SeleniumUtils -The control took  -  29 to be loaded
+04:39:51.237 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  Login button to be available
+04:40:21.570 ERROR SeleniumUtils -The element Login button not appeared due toExpected condition failed: waiting for visibility of element located by By.xpath: .//button[@id="signin"] (tried for 30 second(s) with 500 milliseconds interval)
+04:40:21.570 INFO  SeleniumUtils -The  Login button is pressed
+04:40:21.578 INFO  SeleniumUtils -Waiting for max:: 30 seconds for Appointment icon to be available
+04:40:21.648 INFO  SeleniumUtils -The control took  -  69 to be loaded
+04:40:21.657 INFO  SeleniumUtils -'Appointment Icon' Element is Present
+04:40:41.145 INFO  TestBase -Web application opened
+04:40:41.149 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  Register/Login link to be available
+04:40:41.188 INFO  SeleniumUtils -The control took  -  39 to be loaded
+04:40:42.298 ERROR SeleniumUtils -The  Register/Login not pressed due to element click intercepted: Element <i class="fa fa-user-circle-o fa-lg">...</i> is not clickable at point (727, 66). Other element would receive the click: <p>...</p>
+  (Session info: chrome=83.0.4103.61)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-R86KN5M', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\ZAHRAA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51806}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d6e85d249e2b90f24cca159c0025a92b
+04:42:54.298 INFO  TestBase -Web application opened
+04:42:54.328 INFO  SeleniumUtils -Waiting for max:: 30 seconds for Close button of the welcome pop up to be available
+04:42:54.388 INFO  SeleniumUtils -The control took  -  58 to be loaded
+04:42:55.327 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  The Welcome to Ministry of Health and Prevention Website close button to be available
+04:42:55.400 INFO  SeleniumUtils -The control took  -  73 to be loaded
+04:42:55.401 INFO  SeleniumUtils -The  The Welcome to Ministry of Health and Prevention Website close button is pressed
+04:42:55.405 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  serviceMenu Menu to be available
+04:42:55.488 INFO  SeleniumUtils -The control took  -  83 to be loaded
+04:42:55.774 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  serviceMenu Menu to be available
+04:42:55.816 INFO  SeleniumUtils -The control took  -  42 to be loaded
+04:42:55.817 INFO  SeleniumUtils -The  serviceMenu Menu is pressed
+04:42:55.821 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  Service list item to be available
+04:42:55.854 INFO  SeleniumUtils -The control took  -  32 to be loaded
+04:42:58.497 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  Service list item to be available
+04:43:28.541 ERROR SeleniumUtils -The element Service list item not appeared due toExpected condition failed: waiting for visibility of element located by By.xpath: .//ul[@class='dropdown-menu']//a[text()='Services'] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-R86KN5M', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\ZAHRAA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51923}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: eb8d06461b2fc90be9e6867ff54edfb8
+04:43:28.542 INFO  SeleniumUtils -The  Service list item is pressed
+04:43:28.557 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  service search Textbox to be available
+04:43:28.590 INFO  SeleniumUtils -The control took  -  32 to be loaded
+04:43:28.600 INFO  SeleniumUtils -'Serch service control' Element is Present
+04:43:29.093 INFO  SeleniumUtils -TheDental Treatment value is typed in the 'UserName' text box
+04:43:29.097 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  search result to be available
+04:43:29.130 INFO  SeleniumUtils -The control took  -  32 to be loaded
+04:43:31.669 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  serviceMenu Menu to be available
+04:44:02.114 ERROR SeleniumUtils -The element serviceMenu Menu not appeared due toExpected condition failed: waiting for visibility of element located by By.xpath: .//div[@id='searchResults']//span[text()='Dental Treatment'] (tried for 30 second(s) with 500 milliseconds interval)
+04:44:02.114 INFO  SeleniumUtils -The  serviceMenu Menu is pressed
+04:44:02.119 INFO  SeleniumUtils -Waiting for max:: 30 seconds for Go to service to be available
+04:44:02.151 INFO  SeleniumUtils -The control took  -  31 to be loaded
+04:44:02.159 INFO  SeleniumUtils -'Go to service button' Element is Present
+04:44:02.260 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  Go to service to be available
+04:44:02.294 INFO  SeleniumUtils -The control took  -  34 to be loaded
+04:44:02.294 INFO  SeleniumUtils -The  Go to service is pressed
+04:44:02.310 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  UserName Textbox to be available
+04:44:14.587 INFO  SeleniumUtils -The control took  -  12277 to be loaded
+04:44:14.736 INFO  SeleniumUtils -Theminhaeprod12 value is typed in the 'UserName' text box
+04:44:14.738 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  Password Textbox to be available
+04:44:14.771 INFO  SeleniumUtils -The control took  -  33 to be loaded
+04:44:14.883 INFO  SeleniumUtils -TheCerner01 value is typed in the 'Password Textbox' text box
+04:44:14.885 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  Login button to be available
+04:44:14.918 INFO  SeleniumUtils -The control took  -  32 to be loaded
+04:44:21.375 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  Login button to be available
+04:44:51.647 ERROR SeleniumUtils -The element Login button not appeared due toExpected condition failed: waiting for visibility of element located by By.xpath: .//button[@id="signin"] (tried for 30 second(s) with 500 milliseconds interval)
+04:44:51.647 INFO  SeleniumUtils -The  Login button is pressed
+04:44:51.656 INFO  SeleniumUtils -Waiting for max:: 30 seconds for Appointment icon to be available
+04:44:51.725 INFO  SeleniumUtils -The control took  -  69 to be loaded
+04:44:51.735 INFO  SeleniumUtils -'Appointment Icon' Element is Present
+04:45:13.060 INFO  TestBase -Web application opened
+04:45:13.064 INFO  SeleniumUtils -Waiting for max:: 30 seconds for Close button of the welcome pop up to be available
+04:45:13.104 INFO  SeleniumUtils -The control took  -  40 to be loaded
+04:45:14.043 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  The Welcome to Ministry of Health and Prevention Website close button to be available
+04:45:14.088 INFO  SeleniumUtils -The control took  -  44 to be loaded
+04:45:14.088 INFO  SeleniumUtils -The  The Welcome to Ministry of Health and Prevention Website close button is pressed
+04:45:14.090 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  Register/Login link to be available
+04:45:14.123 INFO  SeleniumUtils -The control took  -  33 to be loaded
+04:45:14.537 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  Register/Login to be available
+04:45:14.567 INFO  SeleniumUtils -The control took  -  29 to be loaded
+04:45:14.567 INFO  SeleniumUtils -The  Register/Login is pressed
+04:45:14.577 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  UAEPassLoginEnimg image to be available
+04:45:18.070 INFO  SeleniumUtils -The control took  -  3493 to be loaded
+04:45:21.931 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  UAEPassLoginEnimg to be available
+04:45:52.156 ERROR SeleniumUtils -The element UAEPassLoginEnimg not appeared due toExpected condition failed: waiting for visibility of element located by By.xpath: .//input[@id="MainContent_imgbtnUAEPassLoginEn"] (tried for 30 second(s) with 500 milliseconds interval)
+04:45:52.156 INFO  SeleniumUtils -The  UAEPassLoginEnimg is pressed
+04:48:54.720 INFO  TestBase -Web application opened
+04:48:54.745 INFO  SeleniumUtils -Waiting for max:: 30 seconds for Close button of the welcome pop up to be available
+04:48:54.807 INFO  SeleniumUtils -The control took  -  60 to be loaded
+04:48:55.785 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  The Welcome to Ministry of Health and Prevention Website close button to be available
+04:48:55.835 INFO  SeleniumUtils -The control took  -  49 to be loaded
+04:48:55.836 INFO  SeleniumUtils -The  The Welcome to Ministry of Health and Prevention Website close button is pressed
+04:48:55.840 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  serviceMenu Menu to be available
+04:48:55.896 INFO  SeleniumUtils -The control took  -  56 to be loaded
+04:48:56.151 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  serviceMenu Menu to be available
+04:48:56.187 INFO  SeleniumUtils -The control took  -  36 to be loaded
+04:48:56.187 INFO  SeleniumUtils -The  serviceMenu Menu is pressed
+04:48:56.192 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  Service list item to be available
+04:48:56.229 INFO  SeleniumUtils -The control took  -  37 to be loaded
+04:48:58.534 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  Service list item to be available
+04:49:28.720 ERROR SeleniumUtils -The element Service list item not appeared due toExpected condition failed: waiting for visibility of element located by By.xpath: .//ul[@class='dropdown-menu']//a[text()='Services'] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-R86KN5M', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\ZAHRAA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52259}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: fcbe11d91c9a3c0285309229697fde52
+04:49:28.720 INFO  SeleniumUtils -The  Service list item is pressed
+04:49:28.740 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  service search Textbox to be available
+04:49:28.775 INFO  SeleniumUtils -The control took  -  35 to be loaded
+04:49:28.785 INFO  SeleniumUtils -'Serch service control' Element is Present
+04:49:29.312 INFO  SeleniumUtils -TheDental Treatment value is typed in the 'UserName' text box
+04:49:29.315 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  search result to be available
+04:49:29.345 INFO  SeleniumUtils -The control took  -  30 to be loaded
+04:49:31.832 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  serviceMenu Menu to be available
+04:50:02.053 ERROR SeleniumUtils -The element serviceMenu Menu not appeared due toExpected condition failed: waiting for visibility of element located by By.xpath: .//div[@id='searchResults']//span[text()='Dental Treatment'] (tried for 30 second(s) with 500 milliseconds interval)
+04:50:02.053 INFO  SeleniumUtils -The  serviceMenu Menu is pressed
+04:50:02.057 INFO  SeleniumUtils -Waiting for max:: 30 seconds for Go to service to be available
+04:50:02.096 INFO  SeleniumUtils -The control took  -  39 to be loaded
+04:50:02.106 INFO  SeleniumUtils -'Go to service button' Element is Present
+04:50:02.222 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  Go to service to be available
+04:50:02.257 INFO  SeleniumUtils -The control took  -  35 to be loaded
+04:50:02.257 INFO  SeleniumUtils -The  Go to service is pressed
+04:50:02.274 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  UserName Textbox to be available
+04:50:09.202 INFO  SeleniumUtils -The control took  -  6928 to be loaded
+04:50:09.340 INFO  SeleniumUtils -Theminhaeprod12 value is typed in the 'UserName' text box
+04:50:09.343 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  Password Textbox to be available
+04:50:09.383 INFO  SeleniumUtils -The control took  -  40 to be loaded
+04:50:09.492 INFO  SeleniumUtils -TheCerner01 value is typed in the 'Password Textbox' text box
+04:50:09.496 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  Login button to be available
+04:50:09.525 INFO  SeleniumUtils -The control took  -  29 to be loaded
+04:50:14.626 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  Login button to be available
+04:50:44.886 ERROR SeleniumUtils -The element Login button not appeared due toExpected condition failed: waiting for visibility of element located by By.xpath: .//button[@id="signin"] (tried for 30 second(s) with 500 milliseconds interval)
+04:50:44.887 INFO  SeleniumUtils -The  Login button is pressed
+04:50:44.894 INFO  SeleniumUtils -Waiting for max:: 30 seconds for Appointment icon to be available
+04:50:44.938 INFO  SeleniumUtils -The control took  -  44 to be loaded
+04:50:44.947 INFO  SeleniumUtils -'Appointment Icon' Element is Present
+04:51:21.814 INFO  TestBase -Web application opened
+04:51:21.821 INFO  SeleniumUtils -Waiting for max:: 30 seconds for Close button of the welcome pop up to be available
+04:51:21.858 INFO  SeleniumUtils -The control took  -  37 to be loaded
+04:51:22.850 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  The Welcome to Ministry of Health and Prevention Website close button to be available
+04:51:22.891 INFO  SeleniumUtils -The control took  -  41 to be loaded
+04:51:22.891 INFO  SeleniumUtils -The  The Welcome to Ministry of Health and Prevention Website close button is pressed
+04:51:22.894 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  Register/Login link to be available
+04:51:22.939 INFO  SeleniumUtils -The control took  -  45 to be loaded
+04:51:23.323 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  Register/Login to be available
+04:51:23.387 INFO  SeleniumUtils -The control took  -  63 to be loaded
+04:51:23.388 INFO  SeleniumUtils -The  Register/Login is pressed
+04:51:23.400 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  UAEPassLoginEnimg image to be available
+04:51:28.674 INFO  SeleniumUtils -The control took  -  5274 to be loaded
+04:51:34.237 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  UAEPassLoginEnimg to be available
+04:52:04.701 ERROR SeleniumUtils -The element UAEPassLoginEnimg not appeared due toExpected condition failed: waiting for visibility of element located by By.xpath: .//input[@id="MainContent_imgbtnUAEPassLoginEn"] (tried for 30 second(s) with 500 milliseconds interval)
+04:52:04.702 INFO  SeleniumUtils -The  UAEPassLoginEnimg is pressed
+04:52:04.704 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  user Identifier Textbox to be available
+04:52:04.742 INFO  SeleniumUtils -The control took  -  37 to be loaded
+04:52:04.751 INFO  SeleniumUtils -'user Identifier textbox' Element is Present
+04:55:11.891 INFO  TestBase -Web application opened
+04:55:11.915 INFO  SeleniumUtils -Waiting for max:: 30 seconds for Close button of the welcome pop up to be available
+04:55:11.974 INFO  SeleniumUtils -The control took  -  56 to be loaded
+04:55:12.896 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  The Welcome to Ministry of Health and Prevention Website close button to be available
+04:55:12.929 INFO  SeleniumUtils -The control took  -  33 to be loaded
+04:55:12.929 INFO  SeleniumUtils -The  The Welcome to Ministry of Health and Prevention Website close button is pressed
+04:55:12.944 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  serviceMenu Menu to be available
+04:55:12.976 INFO  SeleniumUtils -The control took  -  32 to be loaded
+04:55:13.311 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  serviceMenu Menu to be available
+04:55:13.343 INFO  SeleniumUtils -The control took  -  32 to be loaded
+04:55:13.343 INFO  SeleniumUtils -The  serviceMenu Menu is pressed
+04:55:13.347 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  Service list item to be available
+04:55:13.377 INFO  SeleniumUtils -The control took  -  30 to be loaded
+04:55:15.874 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  Service list item to be available
+04:55:46.009 ERROR SeleniumUtils -The element Service list item not appeared due toExpected condition failed: waiting for visibility of element located by By.xpath: .//ul[@class='dropdown-menu']//a[text()='Services'] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-R86KN5M', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\ZAHRAA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52653}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 25f89080c80460c5540ffa3eb9e065dc
+04:55:46.010 INFO  SeleniumUtils -The  Service list item is pressed
+04:55:46.027 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  service search Textbox to be available
+04:55:46.061 INFO  SeleniumUtils -The control took  -  33 to be loaded
+04:55:46.072 INFO  SeleniumUtils -'Serch service control' Element is Present
+04:55:46.507 INFO  SeleniumUtils -TheDental Treatment value is typed in the 'UserName' text box
+04:55:46.509 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  search result to be available
+04:55:46.549 INFO  SeleniumUtils -The control took  -  40 to be loaded
+04:55:48.548 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  serviceMenu Menu to be available
+04:56:18.827 ERROR SeleniumUtils -The element serviceMenu Menu not appeared due toExpected condition failed: waiting for visibility of element located by By.xpath: .//div[@id='searchResults']//span[text()='Dental Treatment'] (tried for 30 second(s) with 500 milliseconds interval)
+04:56:18.828 INFO  SeleniumUtils -The  serviceMenu Menu is pressed
+04:56:18.835 INFO  SeleniumUtils -Waiting for max:: 30 seconds for Go to service to be available
+04:56:18.895 INFO  SeleniumUtils -The control took  -  59 to be loaded
+04:56:18.907 INFO  SeleniumUtils -'Go to service button' Element is Present
+04:56:19.015 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  Go to service to be available
+04:56:19.044 INFO  SeleniumUtils -The control took  -  29 to be loaded
+04:56:19.045 INFO  SeleniumUtils -The  Go to service is pressed
+04:56:19.065 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  UserName Textbox to be available
+04:56:24.811 INFO  SeleniumUtils -The control took  -  5746 to be loaded
+04:56:24.933 INFO  SeleniumUtils -Theminhaeprod12 value is typed in the 'UserName' text box
+04:56:24.935 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  Password Textbox to be available
+04:56:24.966 INFO  SeleniumUtils -The control took  -  31 to be loaded
+04:56:25.081 INFO  SeleniumUtils -TheCerner01 value is typed in the 'Password Textbox' text box
+04:56:25.083 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  Login button to be available
+04:56:25.110 INFO  SeleniumUtils -The control took  -  26 to be loaded
+04:56:28.939 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  Login button to be available
+04:56:59.193 ERROR SeleniumUtils -The element Login button not appeared due toExpected condition failed: waiting for visibility of element located by By.xpath: .//button[@id="signin"] (tried for 30 second(s) with 500 milliseconds interval)
+04:56:59.193 INFO  SeleniumUtils -The  Login button is pressed
+04:56:59.196 INFO  SeleniumUtils -Waiting for max:: 30 seconds for Appointment icon to be available
+04:56:59.252 INFO  SeleniumUtils -The control took  -  56 to be loaded
+04:56:59.265 INFO  SeleniumUtils -'Appointment Icon' Element is Present
+04:57:18.632 INFO  TestBase -Web application opened
+04:57:18.636 INFO  SeleniumUtils -Waiting for max:: 30 seconds for Close button of the welcome pop up to be available
+04:57:18.669 INFO  SeleniumUtils -The control took  -  33 to be loaded
+04:57:19.705 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  The Welcome to Ministry of Health and Prevention Website close button to be available
+04:57:19.739 INFO  SeleniumUtils -The control took  -  34 to be loaded
+04:57:19.739 INFO  SeleniumUtils -The  The Welcome to Ministry of Health and Prevention Website close button is pressed
+04:57:19.741 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  Register/Login link to be available
+04:57:19.773 INFO  SeleniumUtils -The control took  -  32 to be loaded
+04:57:20.150 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  Register/Login to be available
+04:57:20.239 INFO  SeleniumUtils -The control took  -  89 to be loaded
+04:57:20.239 INFO  SeleniumUtils -The  Register/Login is pressed
+04:57:20.249 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  UAEPassLoginEnimg image to be available
+04:57:24.275 INFO  SeleniumUtils -The control took  -  4025 to be loaded
+04:57:26.063 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  UAEPassLoginEnimg to be available
+04:57:56.574 ERROR SeleniumUtils -The element UAEPassLoginEnimg not appeared due toExpected condition failed: waiting for visibility of element located by By.xpath: .//input[@id="MainContent_imgbtnUAEPassLoginEn"] (tried for 30 second(s) with 500 milliseconds interval)
+04:57:56.575 INFO  SeleniumUtils -The  UAEPassLoginEnimg is pressed
+04:57:56.581 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  user Identifier Textbox to be available
+04:57:56.656 INFO  SeleniumUtils -The control took  -  75 to be loaded
+04:57:56.669 INFO  SeleniumUtils -'user Identifier textbox' Element is Present
+06:34:57.461 INFO  TestBase -Web application opened
+06:34:57.500 INFO  SeleniumUtils -Waiting for max:: 30 seconds for Close button of the welcome pop up to be available
+06:35:09.574 ERROR SeleniumUtils -The elementClose button of the welcome pop up not appeared due tochrome not reachable
+  (Session info: chrome=83.0.4103.61)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-R86KN5M', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\ZAHRAA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56810}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: bb414f4f10266e72aa50cc19d06ad2c7
+*** Element info: {Using=xpath, value=//button[@class='btn btn-default' and contains(text(),"Close")]}
+06:35:21.611 ERROR SeleniumUtils -The  The Welcome to Ministry of Health and Prevention Website close button not pressed due to chrome not reachable
+  (Session info: chrome=83.0.4103.61)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-R86KN5M', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\ZAHRAA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56810}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: bb414f4f10266e72aa50cc19d06ad2c7
+*** Element info: {Using=xpath, value=//button[@class='btn btn-default' and contains(text(),"Close")]}
+06:35:21.622 INFO  SeleniumUtils -Waiting for max:: 30 seconds for  serviceMenu Menu to be available
+06:35:33.647 ERROR SeleniumUtils -The element serviceMenu Menu not appeared due tochrome not reachable
+  (Session info: chrome=83.0.4103.61)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-R86KN5M', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\ZAHRAA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56810}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: bb414f4f10266e72aa50cc19d06ad2c7
+*** Element info: {Using=xpath, value=.//a[text()='Services' and @data-toggle='dropdown']}
